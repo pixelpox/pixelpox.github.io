@@ -32,9 +32,12 @@ The cardboard prototyping was very useful as I found out about the Raspberry Pi 
 
 Here is the real reason why this project was created. I wanted to learn more about fusion and this seemed to be a simple problem to solve.
 
-Here are some screenshots of my model.
+Here are some screenshots of my model and then I've exported the file as a DXF.
 
-I've then exported the file as a DXF 
+![](../images/posts/2019-03-27-remoteRsaViewer/Screen&#32;Shot&#32;2019-03-29&#32;at&#32;12.49.10.png)
+
+![](../images/posts/2019-03-27-remoteRsaViewer/Screen&#32;Shot&#32;2019-03-29&#32;at&#32;12.49.49.png)
+
 
 ## Laser cutting
 -----
@@ -62,7 +65,7 @@ Unfortunately I didn't have any standoffs available so the Raspberry Pi is just 
 ## Software
 -----
 
-Currently it will just take a picture and publish it to the web. 
+Currently it will just take a picture and publish it to the web.
 
 This apache nginx is only allowed to talk to local computers.
 
