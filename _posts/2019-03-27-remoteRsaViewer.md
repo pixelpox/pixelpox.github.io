@@ -67,6 +67,12 @@ Currently it will just take a picture and publish it to the web.
 This apache nginx is only allowed to talk to local computers.
 
 
+## Up and running
+
+Finally here is an image of my remote connection back to the pi collecting the image
+
+![](../images/posts/2019-03-27-remoteRsaViewer/20190327_130023.jpg)
+
 
 ## Improvements
 -----
