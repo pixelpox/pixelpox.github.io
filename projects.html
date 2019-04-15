@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+
+
+<div class="posts">
+  <h2>My Projects</h2>
+
+  <p>Summary of the projects I am currently working on or have completed.</p>
+  <hr>
+
+  {% for post in site.categories.projects %}
+    <article class="post">
+
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      {% if post.projectPhase == null %}
+        <p>Project Phase: Unknown</p>
+      {% else %}
+        <p>Project Phase: {{post.projectPhase}} </p>
+      {% endif %}
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
+    </article>
+  {% endfor %}
+</div>
