@@ -77,6 +77,7 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: darken($link-color,20);
+    text-decoration: underline;
   }
 }
 
@@ -212,8 +213,8 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; 
+  float: center;
+  margin-top: 23px;
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -230,7 +231,7 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-    
+
     &:hover, &:active {
       color: darken($navbar-hover-color,20);
     }
